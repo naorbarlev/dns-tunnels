@@ -1,9 +1,7 @@
 [package]
 script_dir = scripts
 test_command = cd testing && btest -c btest.cfg
-summary = TODO: A summary of dns-tunnels in one line
-description = TODO: A more detailed description of dns-tunnels.
-	It can span multiple lines, with this indentation.
+summary = Detect DNS Tunnels attack.
 depends = 
 	zeek >=4.0.0
 
